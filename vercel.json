@@ -26,11 +26,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "okoh-great-enhanced.webp",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "public/okoh-great-enhanced.webp",
+      "src": "assets/okoh-great.webp",
       "use": "@vercel/static"
     }
   ],
