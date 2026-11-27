@@ -1,10 +1,39 @@
 {
   "version": 2,
-  "functions": {
-    "api/contact.js": {
-      "maxDuration": 10
+  "builds": [
+    {
+      "src": "api/contact.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "script.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "favicon.svg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "great-media-logo.svg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "okoh-great-enhanced.webp",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/okoh-great-enhanced.webp",
+      "use": "@vercel/static"
     }
-  },
+  ],
   "headers": [
     {
       "source": "/(.*)",
