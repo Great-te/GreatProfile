@@ -59,7 +59,7 @@ Import this repository into Vercel. Use the Other framework preset, leave the bu
 
 - Personal LinkedIn: https://www.linkedin.com/in/okohgreat/
 - Great Media Enterprise LinkedIn: https://www.linkedin.com/company/146283095/
-- GitHub: https://github.com/greatmediaenterprise-lang
+- GitHub: https://github.com/Great-te
 - Instagram: https://www.instagram.com/greatmediaenterprise/
 - YouTube: https://www.youtube.com/@GREATMEDIAENTERPRISE
 - TikTok: https://www.tiktok.com/@greatmediaenterpr
