@@ -79,3 +79,21 @@ footer{background:#fff;border-top:1px solid #e5e3dc}footer p{color:#667078}.soci
 footer{row-gap:16px}
 footer>small{margin-top:4px}
 @media(max-width:620px){.social{justify-content:flex-start;gap:10px}.social a{width:42px;height:42px}.footer-contact{flex-direction:column;align-items:flex-start;gap:9px}}
+
+/* Portrait correction: keep the supplied photo natural and avoid stretching/cropping */
+.portrait{
+  display:block;
+  width:min(100%,380px);
+  height:auto;
+  aspect-ratio:1/1;
+  object-fit:contain;
+  object-position:center;
+  filter:none!important;
+  transform:none;
+  border:6px solid #fff;
+  border-radius:18px;
+  background:#e9eee9;
+  box-shadow:0 18px 48px rgba(35,40,40,.13);
+}
+@media(max-width:800px){.portrait{width:min(88vw,350px);height:auto;aspect-ratio:1/1}}
+@media(max-width:620px){.portrait{width:min(88vw,320px);height:auto;aspect-ratio:1/1;border-width:5px;border-radius:15px}}
