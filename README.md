@@ -1,118 +1,60 @@
-# 👋 Hi, I'm Okoh Great
+# Okoh Great — Personal Portfolio
 
-### Full-Stack Software Developer | AI Developer | UI/UX Designer | Mobile App Developer | Data Analyst | Sound Engineer
+Personal portfolio for Okoh Great, a full-stack developer, AI website designer, data analyst and digital creator based in Nigeria.
 
-I'm Okoh Great, a multidisciplinary software developer, technology enthusiast, and digital media professional from Nigeria. I build digital products, design user experiences, develop AI-powered solutions, and work across audio engineering, music production, live streaming, and multimedia production.
+## Live project links
 
-I'm passionate about turning ideas into practical solutions through technology, creativity, innovation, and continuous learning.
+- Great Media Checker: https://greatmediachecker.vercel.app/auth
+- Great Therapy AI: https://greattherapyai.vercel.app/
+- Great University: https://greatuniversity.vercel.app/
+- Chapel of Transformation, FUOYE: https://chapeloftransformation.vercel.app/
+- Chapel broadcast demonstration: https://youtu.be/qQpsKHkzNY0
+- Cego Print Ventures: https://cegoprintventures.vercel.app/
+- Great Media Stock Intelligence: https://greatstockintellgence.vercel.app/
+- Great Media Enterprise: https://greatmediaenterprise.vercel.app/ and https://greatmedia.vercel.app/
 
-### 🚀 What I Build & Do
+## What the portfolio covers
 
-- **Full-Stack Web Development:** Responsive websites, web applications, business platforms, dashboards, and scalable digital products.
-- **Mobile App Development:** Cross-platform mobile applications using Flutter and React Native.
-- **AI & Machine Learning:** AI-powered applications, intelligent assistants, AI integrations, document analysis, and automation solutions.
-- **UI/UX Design:** User interfaces, wireframes, prototypes, website layouts, mobile app designs, and user experience research using Figma.
-- **Backend Development:** REST API integration, database management, authentication, and backend systems.
-- **Data Analytics & Research:** Data collection, cleaning, processing, analysis, visualization, and reporting.
-- **Digital Marketing:** SEO, Google search optimization, social media management, and digital brand development.
-- **Audio Engineering & Music Production:** Sound recording, editing, digital mixing, mastering, and music production.
-- **Live Streaming & Broadcasting:** Live broadcasts, audio/video routing, multi-camera production, and event coverage.
-- **Video & Media Production:** Video editing, camera operations, smartphone videography, and content creation.
-- **Graphic Design & Branding:** Visual content, promotional materials, brand assets, and digital designs.
-- **Workflow Automation:** AI agents, automated workflows, and business process automation.
+Full-stack and mobile development, AI products, UX/UI design, data analysis, digital marketing, sound engineering, music production, live streaming and broadcast production.
 
-### 🛠️ Technologies, Software & Tools
+Chapel of Transformation project experience includes website and mobile app development, web software, sound engineering and live broadcast workflows using OBS, vMix, EasyWorship and NDI.
 
-**Programming & Development**
-- JavaScript, Python, HTML5, CSS3, SQL, Dart
-- React, Vite, Tailwind CSS
-- Flutter, React Native
-- Node.js, Supabase, Firebase
-- REST APIs, Git, GitHub, Vercel
+## Tech
 
-**AI & Automation**
-- ChatGPT, Google Gemini API, Groq API
-- n8n, Make, Zapier
+- HTML, CSS and JavaScript
+- Vercel serverless API route for the contact form
+- Resend email API (server-side key; never exposed to the browser)
+- Lucide icons, responsive layout, custom favicon and animated details
 
-**UI/UX & Graphic Design**
-- Figma
-- Wireframing and Prototyping
-- UI Design and UX Research
-- Graphic Design
+## Run locally
 
-**Audio Engineering & Music Production**
-- Studio One
-- FL Studio
-- Cubase
-- Audacity
-- Waves Audio Plugins
-- Audio Recording, Editing, Mixing and Mastering
+```bash
+npm install
+npm run dev
+```
 
-**Live Streaming & Broadcasting**
-- OBS Studio
-- vMix
-- Multi-camera Live Production
-- Professional Camera and Smartphone Camera Operations
-- Audio Routing and Live Sound Management
-- Live Event Streaming
+## Enable the contact form
 
-**Digital Marketing & Analytics**
-- Google Analytics 4
-- Google Search Console
-- Ahrefs and Semrush
-- SEO and Digital Marketing
-- Social Media Management
+1. Create an API key at https://resend.com/api-keys.
+2. Add `RESEND_API_KEY` and `CONTACT_EMAIL` in Vercel → Project → Settings → Environment Variables.
+3. For production delivery, verify a sending domain in Resend and set `CONTACT_FROM` to an address on that domain.
+4. Redeploy after adding environment variables.
 
-### 💻 Featured Projects
+The portfolio itself works without these environment variables; the contact form will show a clear setup message until the email service is configured.
 
-**Great University**  
-University website built with React, Vite, and Supabase.  
-🔗 https://greatuniversity.vercel.app/
+## Deploy
 
-**Cego Print Ventures**  
-Business website development, maintenance, SEO, and digital solutions.  
-🔗 https://cegoprintventures.vercel.app/
+Import this repository into Vercel. Use the Other framework preset, leave the build command blank, and set the output directory to `.`.
 
-**Chapel of Transformation**  
-Church website and digital presence platform.  
-🔗 https://chapeloftransformation.vercel.app/
+## Social profiles
 
-**Great Media Enterprise**  
-My technology and digital solutions company.
+- Personal LinkedIn: https://www.linkedin.com/in/okohgreat/
+- Great Media Enterprise LinkedIn: https://www.linkedin.com/company/146283095/
+- GitHub: https://github.com/greatmediaenterprise-lang
+- Instagram: https://www.instagram.com/greatmediaenterprise/
+- YouTube: https://www.youtube.com/@GREATMEDIAENTERPRISE
+- TikTok: https://www.tiktok.com/@greatmediaenterpr
+- Facebook: https://www.facebook.com/osebike.okoh
+- X: https://x.com/MediaGreat72331
 
-- Main Website: https://greatmedia.vercel.app/
-- Business Website: https://greatmediaenterprise.vercel.app/
-
-**Great Media Therapy AI**  
-An AI-powered multilingual mental wellness support platform.
-
-**Great Media Checker**  
-An academic document analysis platform focused on AI writing detection, plagiarism checking, and document integrity.
-
-**Great Media Stock Intelligence**  
-An AI-driven financial intelligence project exploring stock analysis, market research, and financial data.
-
-### 📈 Currently Exploring
-- Advanced AI and full-stack application development
-- AI agents and intelligent automation
-- Mobile application development
-- Financial technology and data intelligence
-- Cloud services and scalable software architecture
-- Modern UI/UX design and digital media production
-
-### 🤝 Let's Connect
-
-I'm open to remote opportunities, software development roles, freelance projects, collaborations, and innovative technology partnerships.
-
-- **GitHub:** https://github.com/greatmediaenterprise-lang
-- **LinkedIn:** https://www.linkedin.com/in/okoh-great/
-- **Company:** Great Media Enterprise
-- **Email:** greatmediaenterprise@gmail.com
-
----
-
-### 💡 My Philosophy
-
-I believe technology and creativity can work together to solve problems, create opportunities, and make life better.
-
-**Building Digital Solutions from Nigeria for the World.** 🌍
+**Building Digital Solutions from Nigeria for the World.**
