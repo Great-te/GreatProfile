@@ -103,3 +103,9 @@ footer>small{margin-top:4px}
 .visual{min-height:470px;height:auto;overflow:visible}.portrait{display:block;width:min(100%,370px);height:auto;aspect-ratio:1211 / 1299;object-fit:cover;object-position:center center;filter:none!important;border-radius:190px 190px 14px 14px}.visual .ring{pointer-events:none}
 @media(max-width:800px){.visual{min-height:420px;height:auto}.portrait{width:min(88vw,350px);height:auto;aspect-ratio:1211 / 1299}}
 @media(max-width:620px){.visual{min-height:370px;height:auto}.portrait{width:min(82vw,310px);height:auto;aspect-ratio:1211 / 1299;border-radius:150px 150px 12px 12px}}
+
+
+/* Restore the original square portrait frame */
+.visual .portrait{width:min(100%,380px);height:380px;aspect-ratio:1/1;object-fit:cover;object-position:center;border-radius:18px!important;border:6px solid #fff;filter:none!important}
+@media(max-width:800px){.visual .portrait{width:min(88vw,350px);height:min(88vw,350px);aspect-ratio:1/1}}
+@media(max-width:620px){.visual .portrait{width:min(82vw,320px);height:min(82vw,320px);aspect-ratio:1/1;border-radius:15px!important}}
