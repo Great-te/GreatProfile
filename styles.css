@@ -97,3 +97,9 @@ footer>small{margin-top:4px}
 }
 @media(max-width:800px){.portrait{width:min(88vw,350px);height:auto;aspect-ratio:1/1}}
 @media(max-width:620px){.portrait{width:min(88vw,320px);height:auto;aspect-ratio:1/1;border-width:5px;border-radius:15px}}
+
+
+/* Portrait display: preserve the uploaded photo's natural proportions. */
+.visual{min-height:470px;height:auto;overflow:visible}.portrait{display:block;width:min(100%,370px);height:auto;aspect-ratio:1211 / 1299;object-fit:cover;object-position:center center;filter:none!important;border-radius:190px 190px 14px 14px}.visual .ring{pointer-events:none}
+@media(max-width:800px){.visual{min-height:420px;height:auto}.portrait{width:min(88vw,350px);height:auto;aspect-ratio:1211 / 1299}}
+@media(max-width:620px){.visual{min-height:370px;height:auto}.portrait{width:min(82vw,310px);height:auto;aspect-ratio:1211 / 1299;border-radius:150px 150px 12px 12px}}
