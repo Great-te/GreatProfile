@@ -4,14 +4,22 @@ Personal portfolio for Okoh Great, a full-stack developer, AI website designer, 
 
 ## Live project links
 
-- Great Media Checker: https://greatmediachecker.vercel.app/auth
-- Great Therapy AI: https://greattherapyai.vercel.app/
-- Great University: https://greatuniversity.vercel.app/
+- Great Media Checker (AI / academic integrity web app): https://greatmediachecker.vercel.app/auth
+- Great Therapy AI (AI wellness web app): https://greattherapyai.vercel.app/
+- Great University (React website): https://greatuniversity.vercel.app/
+- TechHubNaija (e-commerce website): https://techhubnaija.vercel.app/
 - Chapel of Transformation, FUOYE: https://chapeloftransformation.vercel.app/
 - Chapel broadcast demonstration: https://youtu.be/qQpsKHkzNY0
 - Cego Print Ventures: https://cegoprintventures.vercel.app/
 - Great Media Stock Intelligence: https://greatstockintellgence.vercel.app/
 - Great Media Enterprise: https://greatmediaenterprise.vercel.app/ and https://greatmedia.vercel.app/
+
+## Project categories
+
+- Websites and digital experiences: Chapel of Transformation, Great University, Cego Print Ventures, Great Media Enterprise.
+- Web applications and software: Great Media Checker, Great Therapy AI, Great Media Stock Intelligence.
+- E-commerce: TechHubNaija.
+- Mobile apps and digital products: Pro Scrabble Offline, Daily Bible From Nigeria.
 
 ## What the portfolio covers
 
