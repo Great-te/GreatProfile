@@ -115,4 +115,4 @@ I'm open to remote opportunities, software development roles, freelance projects
 
 I believe technology and creativity can work together to solve problems, create opportunities, and make life better.
 
-**Building Digital Solutions from Nigeria for the World.** 🌍********
+**Building Digital Solutions from Nigeria for the World.** 🌍
