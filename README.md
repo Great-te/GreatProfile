@@ -14,6 +14,13 @@ Personal portfolio for Okoh Great, a full-stack developer, AI website designer, 
 - Great Media Stock Intelligence: https://greatstockintellgence.vercel.app/
 - Great Media Enterprise: https://greatmediaenterprise.vercel.app/ and https://greatmedia.vercel.app/
 
+## Design, research and data portfolio
+
+- UX/UI design portfolio (Figma): https://decay-utter-23477307.figma.site/
+- Graphic design sample — Father’s Day artwork for Chapel of Transformation: https://greatmedia.vercel.app/assets/fathers-day-chapel-transformation.webp
+- Research and academic support: project works, seminar reports, SIWES reports, master’s theses and PhD dissertations.
+- Data analysis: Power BI, SQL, Excel and Python.
+
 ## Project categories
 
 - Websites and digital experiences: Chapel of Transformation, Great University, Cego Print Ventures, Great Media Enterprise.
@@ -23,7 +30,7 @@ Personal portfolio for Okoh Great, a full-stack developer, AI website designer, 
 
 ## What the portfolio covers
 
-Full-stack and mobile development, AI products, UX/UI design, data analysis, digital marketing, sound engineering, music production, live streaming and broadcast production.
+Full-stack and mobile development, AI products, UX/UI and graphic design, academic research, data analysis with Power BI, SQL and Excel, digital marketing, sound engineering, music production, live streaming and broadcast production.
 
 Chapel of Transformation project experience includes website and mobile app development, web software, sound engineering and live broadcast workflows using OBS, vMix, EasyWorship and NDI.
 
