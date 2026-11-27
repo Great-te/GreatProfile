@@ -29,8 +29,9 @@ Chapel of Transformation project experience includes website and mobile app deve
 
 ## Tech
 
-- HTML, CSS and JavaScript
-- Vercel serverless API route for the contact form
+- Front end: HTML5, CSS3 and vanilla JavaScript
+- Back end: Node.js serverless API route on Vercel for the contact form
+- Email delivery: Resend API, with credentials stored in server-side environment variables
 - Resend email API (server-side key; never exposed to the browser)
 - Lucide icons, responsive layout, custom favicon and animated details
 
