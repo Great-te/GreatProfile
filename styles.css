@@ -109,3 +109,22 @@ footer>small{margin-top:4px}
 .visual .portrait{width:min(100%,380px);height:380px;aspect-ratio:1/1;object-fit:cover;object-position:center;border-radius:18px!important;border:6px solid #fff;filter:none!important}
 @media(max-width:800px){.visual .portrait{width:min(88vw,350px);height:min(88vw,350px);aspect-ratio:1/1}}
 @media(max-width:620px){.visual .portrait{width:min(82vw,320px);height:min(82vw,320px);aspect-ratio:1/1;border-radius:15px!important}}
+
+
+/* Embedded broadcast video and visible GitHub repository showcase */
+.showcase-block{margin-top:58px;padding:30px;background:#fff;border:1px solid #e4e2dc;border-radius:14px;box-shadow:0 8px 25px rgba(35,38,35,.035)}
+.showcase-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:22px}
+.showcase-heading>div{max-width:680px}
+.showcase-heading small{font:10px 'DM Mono',monospace;letter-spacing:1.5px;color:#b45e30}
+.showcase-heading h3{font-size:23px;margin:10px 0;color:#22282b}
+.showcase-heading p{font-size:12px;line-height:1.8;color:#667078;margin:0}
+.showcase-link{display:inline-block;white-space:nowrap;color:#d9652a;font-size:12px;font-weight:700}
+.video-frame{position:relative;width:100%;aspect-ratio:16/9;background:#111;border-radius:10px;overflow:hidden}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.repo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.repo-grid a{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid #e4e2dc;border-radius:9px;background:#faf9f6;transition:transform .2s,border-color .2s}
+.repo-grid a:hover{transform:translateY(-3px);border-color:#e96f2e}
+.repo-grid b{font-size:15px;color:#22282b}
+.repo-grid span{font-size:12px;color:#667078;line-height:1.6}
+.repo-grid small{font:10px 'DM Mono',monospace;color:#b45e30;margin-top:4px}
+@media(max-width:620px){.showcase-block{padding:18px;margin-top:38px}.showcase-heading{display:block}.showcase-heading h3{font-size:20px}.showcase-link{display:inline-block;margin-top:15px}.repo-grid{grid-template-columns:1fr}}
